@@ -1,9 +1,8 @@
-package com.badlogic.drop.lwjgl3;
+package io.github.monika680615039.lwjgl3;
 
-import com.badlogic.drop.Drop;
+import io.github.monika680615039.Drop;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import com.badlogic.drop.Drop;
 
 /** Launches the desktop (LWJGL3) application. */
 public class Lwjgl3Launcher {
