@@ -28,7 +28,7 @@ public class MainMenuScreen implements Screen {
         game.font.draw(game.batch, "Press SPACE to begin!", 100, 100);
         game.batch.end();
 
-        // กดปุ่ม SPACE เพื่อสลับไปยังหน้าจอ GameScreen
+
         if (Gdx.input.isKeyJustPressed(Keys.SPACE)) {
             game.setScreen(new GameScreen(game));
             dispose();
